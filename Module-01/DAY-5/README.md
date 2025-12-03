@@ -28,7 +28,7 @@ Register Number: 212223220100
 ```
 
 ## Sourcecode.java:
-```
+```java
 import java.util.Scanner;
 
 public class Student {
@@ -71,4 +71,5 @@ public class Student {
 
 ## RESULT:
 Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
+
 
