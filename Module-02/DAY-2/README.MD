@@ -54,10 +54,11 @@ Expected        Got
 17              17
 
 ```
-!(https://github.com/SanthoshThiru/19AI307_JAVA/blob/main/Module-02/DAY-2/javaObjects.png)
+![objects](https://github.com/SanthoshThiru/19AI307_JAVA/blob/main/Module-02/DAY-2/javaObjects.png)
 
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.
+
 
 
 
