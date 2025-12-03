@@ -68,12 +68,13 @@ public static void main(String args[]){
 ```
 ## OUTPUT:
 
-https://github.com/SanthoshThiru/19AI307_JAVA/blob/main/Module-05/DAY-2/javaWidthHeight.png
+<img src="https://github.com/SanthoshThiru/19AI307_JAVA/blob/main/Module-05/DAY-2/javaWidthHeight.png" alt="A descriptive name for the image" width="462" height="365" />
 
 
 
 ## RESULT:
 Thus a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class was executed successfully.
+
 
 
 
