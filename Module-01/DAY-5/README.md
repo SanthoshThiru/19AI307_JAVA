@@ -63,7 +63,7 @@ public class Student {
         scanner.close();
     }
 }
-```
+``` 
 ## OUTPUT:
 
 <img width="600" height="170" alt="Screenshot 2025-10-09 203953" src="https://github.com/user-attachments/assets/5207c4ef-dfca-4a4c-9e24-d408f733afdd" />
@@ -71,5 +71,6 @@ public class Student {
 
 ## RESULT:
 Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
+
 
 
