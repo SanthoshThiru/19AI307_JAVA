@@ -98,8 +98,9 @@ public class Main {
 ```
 ## OUTPUT:
 
-
+<img src="https://github.com/SanthoshThiru/19AI307_JAVA/blob/main/Module-04/DAY-2/javaClassesObjects.png" alt="Diagram showing Java Classes and Objects concept" width="600" />
 
 ## RESULT:
 Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
+
 
