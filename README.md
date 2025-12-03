@@ -1,85 +1,74 @@
 # 📚 **19AI307: Java Programming Repository**
 
-This repository contains all the algorithms, code samples, and program with its output for the **19AI307 - Java Programming** course/module, organized by topic for easy reference.
+This repository contains all the code samples, diagrams, and notes for the **19AI307 - Java Programming** course/module, organized strictly into **five modules** based on the official syllabus structure.
 
 ---
 
 ## 🗺️ **Module and Topic Index**
 
-The table below provides a quick overview of all the modules, main topics, and links to the relevant content folders.
+The table below provides a quick overview of the five modules and links to the relevant content folders.
 
-| Module No. | Module Name | Core Topics Covered | Folder Link |
+| Module No. | Module Title | Core Focus | Folder Link |
 | :---: | :--- | :--- | :---: |
-| **01** | **Java Fundamentals** | Introduction, Setup, Syntax, Data Types, Operators, Control Flow. | [Module-01](Module-01) |
-| **02** | **Arrays & Loops** | Single/Multi-dimensional Arrays, `for`, `while`, `do-while` loops, `break`/`continue`. | [Module-02](Module-02) |
-| **03** | **Strings & Memory** | `String` class, `StringBuffer`, `StringBuilder`, Garbage Collection. | [Module-03](Module-03) |
-| **04** | **OOP: Core Concepts** | Classes, Objects, Methods, Constructors, **Encapsulation**, **Inheritance**, **Polymorphism**. | [Module-04](Module-04) |
-| **05** | **OOP: Abstraction & Interfaces** | Abstract Classes, Interfaces, Access Modifiers, Packages. | [Module-05](Module-05) |
-| **06** | **Exception Handling** | `try-catch-finally`, `throw`, `throws`, Checked vs. Unchecked Exceptions, Custom Exceptions. | [Module-06](Module-06) |
-| **07** | **I/O & File Handling** | Streams (Byte/Character), `File` Class, Reading and Writing Files. | [Module-07](Module-07) |
-| **08** | **Collections Framework** | Interfaces (`List`, `Set`, `Map`), Implementations (`ArrayList`, `HashSet`, `HashMap`), Iterators. | [Module-08](Module-08) |
-| **09** | **Multithreading** | Thread creation (`Thread`, `Runnable`), Life Cycle, Synchronization, Deadlocks. | [Module-09](Module-09) |
+| **01** | **Introduction to Java Programming** | Fundamentals, Control Flow, Strings, Arrays, and Math Functions. | [Module-01](Module-01) |
+| **02** | **Introduction to OOPs** | Classes, Objects, Methods, Variables, Access Specifiers, and Constructors. | [Module-02](Module-02) |
+| **03** | **Advanced OOPs Principles** | Inheritance, Polymorphism, Abstraction, Interfaces, Enums, and Wrapper Classes. | [Module-03](Module-03) |
+| **04** | **Exception Handling, SOLID Principles, UML, and Design Patterns** | Error Handling, Design Principles, and common Design Patterns. | [Module-04](Module-04) |
+| **05** | **(File Handling and Collections)** | *Placeholder for remaining topics (File I/O, Collections Framework, Multithreading).* | [Module-05](Module-05) |
 
 ---
 
 ## 📖 **Detailed Syllabus Breakdown**
 
-### **⭐ Module 03: Strings & Memory**
+### **⭐ Module 01: Introduction to Java Programming**
 
 | Subtopic | Description |
 | :--- | :--- |
-| **String Class** | Immutability, String literals vs. `new String()`. |
-| **String Methods** | Essential methods like `length()`, `charAt()`, `substring()`, `equals()`, etc. |
-| **StringBuffer / StringBuilder** | Mutability, **Thread-Safety** and performance comparison. |
-| **Garbage Collection** | The concept of automatic memory management and the `finalize()` method. |
+| **A. Introduction** | History, Features of Java, JDK/JRE/JVM. |
+| **B. Primitive Data Types, Variables and Operators** | Integer, Float, Boolean types; Assignment, Arithmetic, and Logical Operators. |
+| **C. Conditional Statement** | `if`, `else-if`, `switch` statements. |
+| **D. Looping Statement** | `for`, `while`, and `do-while` loops. |
+| **E. Arrays** | Single and Multi-dimensional arrays. |
+| **F. Strings and Math Functions** | `String` class basics, common methods in the `Math` class. |
 
-### **⭐ Module 04: OOP: Core Concepts**
-
-| Subtopic | Description |
-| :--- | :--- |
-| **Classes & Objects** | Defining a Class, creating an Object, instance variables. |
-| **Constructors** | Default, Parameterized, and Constructor Overloading. |
-| **Inheritance** | `extends` keyword, `super` keyword, Method Overriding. |
-| **Polymorphism** | Method Overloading (Compile-time) and Method Overriding (Run-time). |
-| **Encapsulation** | Using private variables with public getters and setters. |
-
-### **⭐ Module 05: OOP: Abstraction & Interfaces**
+### **⭐ Module 02: Introduction to OOPs**
 
 | Subtopic | Description |
 | :--- | :--- |
-| **Abstraction** | Defining abstract classes and abstract methods. |
-| **Interfaces** | Defining interfaces, implementing multiple interfaces, Default/Static methods. |
-| **Packages** | Creating and using user-defined packages with the `import` statement. |
-| **Access Modifiers** | `public`, `protected`, `default`, and `private` scope rules. |
+| **A. Class and Objects** | Defining a Class, creating an Object, instance variables, and methods. |
+| **B. Methods** | Defining methods, method parameters, and return types. |
+| **C. Access Specifiers** | Understanding `public`, `private`, `protected`, and `default` access levels. |
+| **D. Variables Scope and Constructor** | Local vs. Instance variables; Default and Parameterized Constructors. |
+| **E. Access Modifiers** | Detailed look at using modifiers to control class and member access. |
 
-### **⭐ Module 06: Exception Handling**
-
-| Subtopic | Description |
-| :--- | :--- |
-| **Try-Catch Blocks** | Handling runtime exceptions using `try` and `catch` blocks. |
-| **Throws & Throw** | Declaring exceptions with `throws` and explicitly throwing with `throw`. |
-| **Custom Exceptions** | Creating user-defined exceptions by extending `Exception`. |
-
-### **⭐ Module 07: I/O & File Handling**
+### **⭐ Module 03: Advanced OOPs Principles**
 
 | Subtopic | Description |
 | :--- | :--- |
-| **Byte Streams** | Using `FileInputStream` and `FileOutputStream` for binary data. |
-| **Character Streams** | Using `FileReader` and `FileWriter` for text data. |
-| **The File Class** | Methods for manipulating file properties (existence, size, path). |
+| **A. Inheritance and Aggregation** | Implementing single, multilevel, and hierarchical inheritance; Composition vs. Aggregation. |
+| **B. Polymorphism** | Method Overloading (Compile-time) and Method Overriding (Run-time). |
+| **C. Abstraction** | Implementing Abstraction using Abstract Classes and methods. |
+| **D. Interface** | Defining interfaces, implementing multiple interfaces, Default/Static methods. |
+| **E. Enum** | Creating user-defined constant sets using the `enum` keyword. |
+| **F. Wrapper Classes** | Converting primitive types to objects (`Integer`, `Double`, etc.) and vice versa. |
 
-### **⭐ Module 08: Collections Framework**
-
-| Subtopic | Description |
-| :--- | :--- |
-| **List Interface** | Implementation with `ArrayList` and `LinkedList` (ordered collections). |
-| **Set Interface** | Implementation with `HashSet` (unique elements). |
-| **Map Interface** | Implementation with `HashMap` (key-value pairs). |
-
-### **⭐ Module 09: Multithreading**
+### **⭐ Module 04: Exception Handling, SOLID Principles, UML, and Design Patterns**
 
 | Subtopic | Description |
 | :--- | :--- |
-| **Thread Creation** | Creating threads using the `Thread` class and the `Runnable` interface. |
-| **Synchronization** | Using the `synchronized` keyword to protect critical sections. |
-| **Thread Life Cycle** | Explanation of New, Runnable, Blocked, Waiting, and Terminated states. |
+| **A. Exception Handling** | Using `try-catch-finally`, `throw`, and `throws`; Checked vs. Unchecked exceptions. |
+| **B. Implement Solid Principles** | Understanding and applying **S**ingle responsibility, **O**pen/closed, **L**iskov substitution, **I**nterface segregation, and **D**ependency inversion. |
+| **C. Composition in Java** | Favoring composition over inheritance for flexibility. |
+| **D. Design Patterns - Abstract Factory** | Implementing the Abstract Factory pattern. |
+| **E. Design Patterns - Mediator Pattern** | Implementing the Mediator pattern. |
+| **F. Design Patterns - Factory** | Implementing the Factory Method pattern. |
+
+### **⭐ Module 05: Advanced Java Topics**
+
+| Subtopic | Description |
+| :--- | :--- |
+| **A. File Handling and I/O Streams** | Reading from and writing to files using Byte and Character streams (`FileInputStream`, `FileReader`, etc.). |
+| **B. Collections Framework (List, Set, Map)** | Core interfaces and implementations (`ArrayList`, `HashSet`, `HashMap`) for managing data. |
+| **C. Multithreading** | Creating threads, Thread Life Cycle, and Synchronization concepts. |
+
+---
