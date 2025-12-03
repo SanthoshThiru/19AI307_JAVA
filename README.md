@@ -1,5 +1,5 @@
 
-# 📚 **19AI307: Java Programming **
+# 📚 19AI307: Java Programming 
 
 This repository contains all the code samples, diagrams, and notes for the **19AI307 - Java Programming** course/module, organized by topic for easy reference.
 
