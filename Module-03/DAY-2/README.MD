@@ -44,9 +44,10 @@ public class StringBufferExample3{
 ```
 ## OUTPUT:
 
-
+![Java StringBuffer or StringBuilder](https://github.com/SanthoshThiru/19AI307_JAVA/blob/main/Module-03/DAY-2/javasb.png)
 
 ## RESULT:
 
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.
+
 
